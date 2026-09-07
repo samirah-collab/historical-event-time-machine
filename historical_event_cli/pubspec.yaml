@@ -1,0 +1,17 @@
+name: historical_event_cli
+description: Historical Event Time Machine CLI.
+version: 1.0.0
+resolution: workspace
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  http: ^1.2.0
+  logging: ^1.2.0
+  terminal_colors: ^1.0.0
+  historical_event_api: ^1.0.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.24.0

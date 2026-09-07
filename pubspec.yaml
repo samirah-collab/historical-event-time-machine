@@ -1,0 +1,10 @@
+name: historical_event_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+workspace:
+  - terminal_colors
+  - historical_event_api
+  - historical_event_cli
